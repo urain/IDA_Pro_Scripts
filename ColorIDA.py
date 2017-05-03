@@ -1,10 +1,21 @@
-#  ######   #######  ##        #######  ########  #### ########     ###    
-# ##    ## ##     ## ##       ##     ## ##     ##  ##  ##     ##   ## ##   
-# ##       ##     ## ##       ##     ## ##     ##  ##  ##     ##  ##   ##  
-# ##       ##     ## ##       ##     ## ########   ##  ##     ## ##     ## 
-# ##       ##     ## ##       ##     ## ##   ##    ##  ##     ## ######### 
-# ##    ## ##     ## ##       ##     ## ##    ##   ##  ##     ## ##     ## 
-#  ######   #######  ########  #######  ##     ## #### ########  ##     ## 
+#                                                                                                                                                   
+#                                                                                                                                                   
+#        CCCCCCCCCCCCC                 lllllll                                           IIIIIIIIIIDDDDDDDDDDDDD                  AAA               
+#     CCC::::::::::::C                 l:::::l                                           I::::::::ID::::::::::::DDD              A:::A              
+#   CC:::::::::::::::C                 l:::::l                                           I::::::::ID:::::::::::::::DD           A:::::A             
+#  C:::::CCCCCCCC::::C                 l:::::l                                           II::::::IIDDD:::::DDDDD:::::D         A:::::::A            
+# C:::::C       CCCCCC   ooooooooooo    l::::l    ooooooooooo   rrrrr   rrrrrrrrr          I::::I    D:::::D    D:::::D       A:::::::::A           
+#C:::::C               oo:::::::::::oo  l::::l  oo:::::::::::oo r::::rrr:::::::::r         I::::I    D:::::D     D:::::D     A:::::A:::::A          
+#C:::::C              o:::::::::::::::o l::::l o:::::::::::::::or:::::::::::::::::r        I::::I    D:::::D     D:::::D    A:::::A A:::::A         
+#C:::::C              o:::::ooooo:::::o l::::l o:::::ooooo:::::orr::::::rrrrr::::::r       I::::I    D:::::D     D:::::D   A:::::A   A:::::A        
+#C:::::C              o::::o     o::::o l::::l o::::o     o::::o r:::::r     r:::::r       I::::I    D:::::D     D:::::D  A:::::A     A:::::A       
+#C:::::C              o::::o     o::::o l::::l o::::o     o::::o r:::::r     rrrrrrr       I::::I    D:::::D     D:::::D A:::::AAAAAAAAA:::::A      
+#C:::::C              o::::o     o::::o l::::l o::::o     o::::o r:::::r                   I::::I    D:::::D     D:::::DA:::::::::::::::::::::A     
+# C:::::C       CCCCCCo::::o     o::::o l::::l o::::o     o::::o r:::::r                   I::::I    D:::::D    D:::::DA:::::AAAAAAAAAAAAA:::::A    
+#  C:::::CCCCCCCC::::Co:::::ooooo:::::ol::::::lo:::::ooooo:::::o r:::::r                 II::::::IIDDD:::::DDDDD:::::DA:::::A             A:::::A   
+#   CC:::::::::::::::Co:::::::::::::::ol::::::lo:::::::::::::::o r:::::r                 I::::::::ID:::::::::::::::DDA:::::A               A:::::A  
+#     CCC::::::::::::C oo:::::::::::oo l::::::l oo:::::::::::oo  r:::::r                 I::::::::ID::::::::::::DDD A:::::A                 A:::::A 
+#        CCCCCCCCCCCCC   ooooooooooo   llllllll   ooooooooooo    rrrrrrr                 IIIIIIIIIIDDDDDDDDDDDDD   AAAAAAA                   AAAAAAA 
 
 import idaapi
  
