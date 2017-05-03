@@ -31,7 +31,7 @@ for i in opChain:
                 opChain.append(y.frm)
     except:
         continue
-# sort ascending
+# sort xrefs ascending
 chainSorted = sorted(opChain)
 
 # output to the window
