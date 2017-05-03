@@ -19,12 +19,11 @@ print("Starting Chain: \n%s\t%x\t%s %s\n\n"%(GetFunctionName(z),z,GetMnem(z),Get
 opChain   = []
 funcChain = []
 
-target = GetFunctionName(ScreenEA())
-
 # add our initial xrefs to our target func
 for xref in XrefsTo(idaapi.get_func(ScreenEA()).startEA):
     opChain.append(xref.frm)
-
+    
+# for func/opcode that ref'd our target, find refs to it
 for i in opChain:
     try:
         for y in XrefsTo(idaapi.get_func(i).startEA):
@@ -32,9 +31,10 @@ for i in opChain:
                 opChain.append(y.frm)
     except:
         continue
-
+# sort ascending
 chainSorted = sorted(opChain)
 
+# output to the window
 for i in chainSorted:
     SetColor(i, CIC_ITEM, 0x2020c0)
     print("%s\t%x\t%s %s"%(GetFunctionName(i),i,GetMnem(i),GetOpnd(i,0)))
